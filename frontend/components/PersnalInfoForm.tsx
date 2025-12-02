@@ -155,7 +155,7 @@ if (LocalstorageData!=="undefined"&&LocalstorageData!==null &&LocalstorageData!=
           </Button>
         
             <Button
-              className="bg-[#1C74F8] hover:bg-[#0d62e1] cursor-pointer w-[100px] h-[40px]"
+              className="bg-gradient-to-r from-[#334155] to-[#0061F2] hover:bg-[#0d62e1] cursor-pointer w-[100px] h-[40px]"
               onClick={() => SaveInLocalHost()}
            disabled={loading} >
               {loading==true?<Loader2 className="animate-spin"/>:""}

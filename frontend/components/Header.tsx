@@ -23,28 +23,31 @@ function Header() {
   const singleUserslector=useSelector((state:{userSlice:User})=>state?.userSlice)
   console.log(singleUserslector)
   return (
-    <header className="w-full lg:flex lg:justify-center border-b border-gray-200 bg-gradient-to-r from-white to-[#f8faff] shadow-sm sticky top-0 z-50">
+    <header className="w-full lg:flex lg:justify-center   bg-gradient-to-r from-white to-[#c7b8e0]   sticky top-0 z-50">
       <div className="w-[100%] 2xl:w-[1200px]">
         <div className="w-full px-6 py-4 flex items-center justify-between">
           {/* Logo */}
           <div>
             <Link href={"/"}>
-              <h3 className="text-2xl font-extrabold text-[#0B1739] tracking-tight hover:text-[#0061F2] transition-colors">
+              <h3 className="text-2xl font-extrabold text-[#334155] tracking-tight hover:text-[#0061F2] transition-colors">
                 Resume<span className="text-[#0061F2]">Pro</span>
               </h3>
             </Link>
           </div>
+          
+          
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">
-            <div className="flex items-center gap-x-8">
-
+            <div className="flex items-center gap-x-2">
+             
               <Link href={`/choesoptions`}>
               
-              <Button className="bg-[#0061F2] hover:bg-[#004bd4] text-white cursor-pointer shadow-sm transition-all hover:scale-105">
+              <Button className="  bg-gradient-to-r from-[#334155] to-[#0061F2]  text-white cursor-pointer shadow-sm transition-all hover:scale-105">
                 Build Resume
               </Button>
               </Link>
+              
               {
                 singleUserslector?.name?<>
                 <div className="">
@@ -52,7 +55,7 @@ function Header() {
                 </div>
                 </>:<>
                  <Link href={`/login`}>
-              <Button className="bg-white hover:bg-white text-black cursor-pointer shadow-sm transition-all hover:scale-105">
+              <Button className="bg-white  hover:bg-gradient-to-r from-[#334155] to-[#0061F2] text-[#334155] hover:text-white cursor-pointer shadow-sm transition-all hover:scale-105">
                 Login
               </Button>
             </Link>
@@ -60,6 +63,7 @@ function Header() {
               }
            
             </div>
+            
           </div>
 
           {/* Mobile Menu */}

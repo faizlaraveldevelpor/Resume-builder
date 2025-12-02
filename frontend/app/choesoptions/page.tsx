@@ -52,7 +52,7 @@ function Choesoptions() {
           Back
         </Button>
         <Link href={"/persnalinfo"}>
-          <Button className="bg-[#1C74F8] hover:bg-[#0d62e1] cursor-pointer w-[110px] h-[44px] text-white font-medium shadow-md transition-all duration-300 hover:scale-105">
+          <Button className="bg-gradient-to-r from-[#334155] to-[#0061F2] hover:bg-[#0d62e1] cursor-pointer w-[110px] h-[44px] text-white font-medium shadow-md transition-all duration-300 hover:scale-105">
             Next
           </Button>
         </Link>

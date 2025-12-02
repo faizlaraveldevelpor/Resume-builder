@@ -4,6 +4,34 @@
 @import 'swiper/css/navigation';
 @import 'swiper/css/pagination';
 
+.write-animation {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing 5s steps(18)  forwards   infinite;
+  
+  
+}
+.featuresbg{
+  background: linear-gradient(183deg,rgba(0, 97, 242, 1) 0%, rgba(199, 199, 199, 1) 72%);
+}
+/* globals.css or component CSS */
+.curved-box {
+  clip-path: ellipse(100% 100% at 30% 0%);
+}
+.curved-box-use {
+  clip-path: ellipse(100% 100% at 60% 0%);
+}
+
+@keyframes typing {
+  
+  0%,10% { width: 0 }
+  50%,70% { width: 100% }
+  100%{ width: 0%;}
+  
+}
+
+
 
 
 .roboto {

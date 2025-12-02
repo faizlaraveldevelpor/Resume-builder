@@ -118,7 +118,7 @@ import { toast } from "sonner"
         </CardContent>
 
         <CardFooter className="flex-col gap-2">
-          <Button onClick={handleSignup} className="w-full">
+          <Button onClick={handleSignup} className="w-full bg-gradient-to-r from-[#334155] to-[#0061F2]">
             Sign Up
           </Button>
           <GoogleLoginButton/>

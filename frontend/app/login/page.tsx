@@ -107,7 +107,7 @@ loginFnc(formData)
         </CardContent>
 
         <CardFooter className="flex-col gap-2">
-          <Button onClick={handleLogin} className="w-full">
+          <Button onClick={handleLogin} className="w-full bg-gradient-to-r from-[#334155] to-[#0061F2]">
             Login
           </Button>
           <GoogleLoginButton/>

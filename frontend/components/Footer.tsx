@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <footer className="bg-[#0B1739] text-white mt-16 w-full flex flex-col items-center">
+    <footer className="bg-[#0B1739] text-white  w-full flex flex-col items-center">
       <div className="w-full 2xl:w-[1200px] px-6 py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Brand Section */}
         <div>
